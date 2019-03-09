@@ -3,6 +3,7 @@ body
   color: $text-color
 .button-o
   text-transform: uppercase
+  background-color: transparent
   border: 2px solid $primary
   padding: 17px 22px
   font-size: 12px
@@ -17,3 +18,6 @@ body
   color: #fff
   +bold
   cursor: pointer
+@media (max-width: 991px)
+  .button-o
+    font-size: 10px
